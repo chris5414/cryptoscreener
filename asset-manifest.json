@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cryptoscreener/static/css/main.0b2e160b.css",
+    "main.js": "/cryptoscreener/static/js/main.6bcb3e6d.js",
+    "index.html": "/cryptoscreener/index.html",
+    "main.0b2e160b.css.map": "/cryptoscreener/static/css/main.0b2e160b.css.map",
+    "main.6bcb3e6d.js.map": "/cryptoscreener/static/js/main.6bcb3e6d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b2e160b.css",
+    "static/js/main.6bcb3e6d.js"
+  ]
+}
