@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Crypto-Screener
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Screenshot 2022-08-25 at 5 26 44 PM](https://user-images.githubusercontent.com/85674752/186629624-598fe323-d445-4b6c-975b-66a2950aa91a.png)
 
-## Available Scripts
+Simple Crypto React app which screens a list of 30 top ranked coins with live updates.
 
-In the project directory, you can run:
+You can also search for the coins right away, it will filter out the list as you type.
 
-### `npm start`
+All the coins shown are clickable links, you can click them to get more detailed information on the individual coin.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Screenshot 2022-08-25 at 5 28 36 PM](https://user-images.githubusercontent.com/85674752/186629672-03218e02-b298-48bf-b313-e3560c428cac.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+# Technology Used
+Using React-Router-Dom v6.2 to create Routes for the pages, Gecko API to generate the live data of the coins, and Axios to fetch the data.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Standard functions like States, useEffect and useParams are also used at various components of the app. 
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Difficulties Faced
+The initial planning was crucial to determine which how to structure the components and place for the State to be in. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+It was redesigned at some point, as the inital plan looked quite messy and did not demonstrate proper Props and Lifting functions. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The Search form is quite tricky as I want it to filter the coins depending on the content in the field box, which includes when users type and delete
+the initial selection halfway. 
 
-### `npm run eject`
+But once the Search was filtered, it doesn't render the fetch again to update the correct list. It was fixed but doing keydown and field empty functions.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+As this was the first React App created, so it is normal for hicups to happen so the important part is to learn from the mistakes.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+# Further Improvements
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Certainly there are plenty of rooms for improvements, and these are the following:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. To optimize the Search, so that it will display the correct list when users type and delete.
 
-### Code Splitting
+2. Display more coins with Pagnation to make it clean.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3. Beautify the individual coin page with CSS.
 
-### Analyzing the Bundle Size
+4. Includes Fav feature for users to add coins for better user experience. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+5. Includes the display of chart for each individual coin.
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Credits
+GA SEI-37 instructor (Desmond) and IA (ZhenHao & Nyna)
