@@ -1,7 +1,5 @@
 # cryptoscreener
 
-# Crypto-Screener
-
 ![Screenshot 2022-08-25 at 5 26 44 PM](https://user-images.githubusercontent.com/85674752/186629624-598fe323-d445-4b6c-975b-66a2950aa91a.png)
 
 Simple Crypto React app which screens a list of 30 top ranked coins with live updates.
